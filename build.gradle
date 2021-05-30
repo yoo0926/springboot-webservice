@@ -22,7 +22,7 @@ dependencies {
     //(3) `gradle 6` 에서 compile, testCompile 은 Soft Deprecate 되고 implementation, testImplementation 이 추가됨
     //gradle 변경점 참고 https://jojoldu.tistory.com/538
     implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation('org.springframework.boot:spring-boot-starter-mustache')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')//머스테치 스타터 의존성 등록
 
     // lombok
     implementation('org.projectlombok:lombok')
