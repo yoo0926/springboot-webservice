@@ -31,7 +31,7 @@ echo "> 현재위치: $PWD"
 
 echo "> $JAR_NAME 에 실행권한 추가"
 
-chmod +x $JAR_NAME
+chmod +x $REPOSITORY/$JAR_NAME
 
 echo "> $JARNAME 실행"
 
