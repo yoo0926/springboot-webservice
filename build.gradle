@@ -5,7 +5,7 @@ plugins { // (1)
 }
 
 group 'com.jojoldu.book'
-version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
+version '1.0.1-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
 repositories {
@@ -41,5 +41,3 @@ dependencies {
 
     implementation('org.mariadb.jdbc:mariadb-java-client') //mariaDB
 }
-//변경된 내용 확인
-//https://jojoldu.tistory.com/539
