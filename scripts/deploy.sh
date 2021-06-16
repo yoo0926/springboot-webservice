@@ -27,11 +27,11 @@ JAR_NAME=$(ls -tr $REPOSITORY/ | grep jar | tail -n 1)
 
 echo "> JAR NAME: $JAR_NAME"
 
-echo "> 현재위치: $PWD"
+cd $REPOSITORY
 
 echo "> $JAR_NAME 에 실행권한 추가"
 
-chmod +x $REPOSITORY/$JAR_NAME
+chmod +x $JAR_NAME
 
 echo "> $JARNAME 실행"
 
